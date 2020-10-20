@@ -19,7 +19,7 @@ import org.easymock.EasyMock;
 
 
 
-class Test {
+class  Test {
 
 	@org.junit.jupiter.api.Test
 	void test() {

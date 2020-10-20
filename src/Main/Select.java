@@ -3,7 +3,7 @@ package Main;
 public class Select  implements Select_Interface {
 
 	@Override
-	public  float[] findnumber(String num, Student[] stu) {
+	public float[] findnumber(String num, Student[] stu) {
 		// TODO Auto-generated method stub
 		float grade[]=new float[3]; 
 		for(int i=0;i<stu.length;i++){
