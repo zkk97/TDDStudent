@@ -57,7 +57,7 @@ class Test {
 			//assertArrayEquals(sum,main.Sort());
 			AvgMax_Interface avgMax = EasyMock.createMock(AvgMax_Interface.class);//Ä£ÄâµÄ
 			float[] max= {98,97,97};
-			float[] avg= {93.5f,86,88};
+			float[]  avg= {93.5f,86,88};
 			EasyMock.expect(avgMax.Avg(stu)).andReturn(avg);
 			EasyMock.expect(avgMax.Max(stu)).andReturn(max);
 			EasyMock.replay(avgMax);
