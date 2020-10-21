@@ -40,6 +40,7 @@ public class Read implements Read_Interface {
                 stu[i-1].setMath(Float.parseFloat(cell4.getContents()));
                 stu[i-1].setEnglish(Float.parseFloat(cell5.getContents()));
                 i++;  
+                
             }  
             book.close();   
         }  
