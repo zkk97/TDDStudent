@@ -8,7 +8,7 @@ public class Select  implements Select_Interface {
 		float grade[]=new float[3]; 
 		for(int i=0;i<stu.length;i++){
 			if(stu[i].getNum() == num){
-				grade[0]  = stu[i].getChinese();
+				grade[0] = stu[i].getChinese();
 				grade[1] = stu[i].getMath();				
 				grade[2] = stu[i].getEnglish();
 			}

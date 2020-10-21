@@ -26,7 +26,7 @@ class  Test {
 		
 			Main main = new Main();
 			String path="sutdent.txt";
-			Student[]  stu = new Student[4];
+			Student[] stu = new Student[4];
 			stu[0] = new Student("1001", "张三",98,97,95);
 			stu[1] = new Student("1002", "里斯",89,94,97);
 			stu[2] = new Student("1003", "梨花",89,86,92);
