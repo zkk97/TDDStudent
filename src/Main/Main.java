@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-	private AvgMax_Interface avgMax;
+	private AvgMax_Interface  avgMax;
 	private Select_Interface select;
 	private Read_Interface read;
 	private Sort_Interface sort;
