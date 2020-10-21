@@ -39,8 +39,6 @@ public class Read implements Read_Interface {
                 stu[i-1].setChinese(Float.parseFloat(cell3.getContents()));
                 stu[i-1].setMath(Float.parseFloat(cell4.getContents()));
                 stu[i-1].setEnglish(Float.parseFloat(cell5.getContents()));
-                //System.out.println(cell1.getContents()+"\t"+cell2.getContents()+"\t"+cell3.getContents()+"\t"+cell4.getContents()  
-                   //     +"\t"+cell5.getContents());   
                 i++;  
             }  
             book.close();   
